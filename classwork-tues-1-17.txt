@@ -1,1 +1,7 @@
 this is a file
+.
+..
+badly named file.txt
+classwork-tues-1-17.txt
+.git
+test1.txt
