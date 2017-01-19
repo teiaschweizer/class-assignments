@@ -1,2 +1,42 @@
 1/19/2017 Lecture 4
 
+  365  ls
+  366  man wc
+  367  cd unix
+  368  cd data
+  369  ls
+  370  wc Marra2014_data.fasta 
+  371  wc -l
+  372  cd Desktop/CSB/unix/data
+  373  ls
+  374  wc -l Marra2014_data.fasta 
+  375  wc Marra2014_data.fasta 
+  376  touch toremove.txt /sandbox 
+  377  touch toremove.txt ../sandbox
+  378  cd ../
+  379  cd sandbox
+  380  ls
+  381  cd ../
+  382  cd data
+  383  touch toremove.txt ~/Desktop/CSB/unix/sandbox
+  384  cd ../
+  385  cd sandbox
+  386  ls
+  387  cd ../
+  388  cd data
+  389  touch ~/Desktop/CSB/unix/sandbox/toremove.txt
+  390  cd ../
+  391  cd sandbox
+  392  ls
+  393  cd ../
+  394  cd data
+  395  touch ../sandbox/toremove2.txt
+  396  cd ../
+  397  cd sandbox/
+  398  ls
+  399  rm toremove.txt 
+  400  rm toremove2.txt 
+  401  ls
+  402  cd ../
+  403  cd data/
+  404  history 40 >> ~/Desktop/eeb-177/class-assignments/classwork-thursday-1-19.txt 
