@@ -1,1 +1,54 @@
 1/24/2017
+/home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-tues-1-17.txt
+/home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-thursday-1-19.txt
+/home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-tues-1-24.txt
+  462  cd ~
+  463  cd Desktop/CSB/unix/sandbox/
+  464  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+  465  ls
+  466  less cep-taxa.txt 
+  467  cd Desktop/CSB/unix/sandbox/
+  468  grep Orchid cep-taxa.txt 
+  469  grep -n Orchid cep-taxa.txt 
+  470  grep -c Orchid cep-taxa.txt 
+  471  grep falcon cep-taxa.txt 
+  472  grep Falcon cep-taxa.txt 
+  473  grep -i falcon cep-taxa.txt 
+  474  grep Ara cep-taxa.txt 
+  475  grep ara cep-taxa.txt 
+  476  grep Ara cep-taxa.txt 
+  477  grep -B 3 Cebus cep-taxa.txt 
+  478  grep -n iguana cep-taxa.txt 
+  479  grep -n -i iguana cep-taxa.txt 
+  480  grep -v -i -w ara cep-taxa.txt 
+  481  grep -v ara cep-taxa.txt 
+  482  grep -v -i -w ara cep-taxa.txt 
+  483  grep -v -i -w -c ara cep-taxa.txt 
+  484  grep -v -i -w -c ara cep-taxa.txt >> non-macaws.txt
+  485  ls
+  486  find .*
+  487  find .*/data
+  488  ../data
+  489  find ../data
+  490  find ../data/ | wc -l
+  491  find ../data -name "n30.txt"
+  492  find /home/eeb177-student/Desktop/eeb-177/class-assignments/ -name "classwork"
+  493  find home/eeb-177-student/Desktop -name "classwork*"
+  494  find /home/eeb177-student/Desktop/ -iname "*work*"
+  495  cd ~
+  496  cd Desktop/eeb-177/class-assignments/
+  497  ls
+  498  find /home/eeb177-student/Desktop/ -name "*classwork*" >> classwork-tues-1-24.txt 
+  499  gedit classwork-tues-1-24.txt 
+  500  find ../data -maxdepth 1 -name "*.txt"
+  501  cd ~
+  502  cd ~/Desktop/CSB/unix/sandbox/
+  503  find ../data -maxdepth 1 -name "*.txt"
+  504  ls -l
+  505  touch permissions.txt
+  506  ls -l
+  507  chmod u-rwx permissions.txt
+  508  ls -l
+  509  chmod u=rwx permisisons.txt
+  510  history 50
+  511  history 50 >> ~/Desktop/eeb-177/class-assignments/classwork-tues-1-24.txt 
